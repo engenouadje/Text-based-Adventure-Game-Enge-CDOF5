@@ -27,20 +27,20 @@ def cave_path():
     print("\nYou enter the cave and come across a fork in the path.")
     time.sleep(1)
     print("Which path will you take?")
-    
+
     choices = ["Go left", "Go right"]
     user_choice = make_choice(choices)
-    
+
     if user_choice == 1:
         print("\nYou chose to go left.")
         time.sleep(1)
         print("You encounter a pack of hungry wolves.")
         time.sleep(1)
         print("What will you do?")
-        
+
         choices = ["Fight the wolves", "Try to sneak past them"]
         user_choice = make_choice(choices)
-        
+
         if user_choice == 1:
             print("\nYou choose to fight the wolves.")
             time.sleep(1)
@@ -55,7 +55,29 @@ def cave_path():
         print("\nYou chose to go right.")
         time.sleep(1)
         print("You discover a hidden shortcut that leads directly to the treasure.")
-        return True
+
+        # Additional scenarios
+        print("\nAs you walk down the right path, you find a mysterious door.")
+        time.sleep(1)
+        print("What will you do?")
+
+        choices = ["Open the door", "Ignore the door"]
+        user_choice = make_choice(choices)
+
+        if user_choice == 1:
+            print("\nYou choose to open the door.")
+            time.sleep(1)
+            print("Behind the door, you find a room filled with ancient artifacts.")
+            time.sleep(1)
+            print("You decide to take one with you.")
+            return True
+        else:
+            print("\nYou choose to ignore the door and continue on the path.")
+            time.sleep(1)
+            print("You encounter a group of bats, but they seem harmless.")
+            return True
+
+
 
 def treasure_room():
     print("\nCongratulations! You've reached the treasure room.")
@@ -66,7 +88,7 @@ def treasure_room():
 
 def game():
     intro()
-    
+
     if cave_path():
         treasure_room()
 
