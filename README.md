@@ -37,15 +37,15 @@ The make_choice function is expected to handle the invalid input ('3') and promp
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/engenouadje/Text-based-Adventure-Game-Enge-CDOF5/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
 ## Authors
 
 * **engenouadje** 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/engenouadje/Text-based-Adventure-Game-Enge-CDOF5/graphs/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/engenouadje/Text-based-Adventure-Game-Enge-CDOF5/blob/main/LICENSE) file for details
