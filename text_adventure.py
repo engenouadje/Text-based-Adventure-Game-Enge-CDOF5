@@ -57,6 +57,7 @@ def cave_path():
         print("You discover a hidden shortcut that leads directly to the treasure.")
         return True
 
+
         # Additional scenarios
         print("\nAs you walk down the right path, you find a mysterious door.")
         time.sleep(1)
@@ -77,6 +78,7 @@ def cave_path():
             time.sleep(1)
             print("You encounter a group of bats, but they seem harmless.")
             return True
+
 
 
 def treasure_room():
