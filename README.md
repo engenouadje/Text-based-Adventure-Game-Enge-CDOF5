@@ -21,8 +21,14 @@ If you don't have Python installed, you can download it from the official websit
 
 3. Navigate to the directory where you saved the Python file 
 
-4. If you are using Python3 run python3 text_adventure.py, if you are using python run python text_adventure.py
-
+4. If you are using Python3 run
+   ```
+   python3 text_adventure.py
+   ```
+   if you are using python run
+   ```
+   python text_adventure.py
+   ```
 
 ### Break down into end to end tests
 
@@ -48,4 +54,5 @@ See also the list of [contributors](https://github.com/engenouadje/Text-based-Ad
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/engenouadje/Text-based-Adventure-Game-Enge-CDOF5/blob/main/LICENSE) file for details
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
