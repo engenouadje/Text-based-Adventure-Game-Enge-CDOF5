@@ -21,8 +21,14 @@ If you don't have Python installed, you can download it from the official websit
 
 3. Navigate to the directory where you saved the Python file 
 
-4. If you are using Python3 run python3 text_adventure.py, if you are using python run python text_adventure.py
-
+4. If you are using Python3 run
+   ```
+   python3 text_adventure.py
+   ```
+   if you are using python run
+   ```
+   python text_adventure.py
+   ```
 
 ### Break down into end to end tests
 
@@ -37,15 +43,16 @@ The make_choice function is expected to handle the invalid input ('3') and promp
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/engenouadje/Text-based-Adventure-Game-Enge-CDOF5/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
 ## Authors
 
 * **engenouadje** 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/engenouadje/Text-based-Adventure-Game-Enge-CDOF5/graphs/contributors) who participated in this project.
 
 ## License
+
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
